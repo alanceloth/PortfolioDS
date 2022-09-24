@@ -19,7 +19,7 @@ import yaml
 
 if __name__ == '__main__':
 
-    stream = open("config.yaml", 'r')
+    stream = open("Bot Telegram Binance\config.yaml", 'r')
     c = yaml.safe_load(stream)
 
 #telegram
@@ -59,7 +59,7 @@ def var_percentual(valor_pago, valor_atual):
     
     valor_lucro = (valor_atual/valor_pago)-1
 
-    valor_lucro = "{:.2%}".format(valor_lucro)
+    #valor_lucro = "{:.2%}".format(valor_lucro)
 
     return valor_lucro
 
@@ -90,22 +90,25 @@ def main():
     time.sleep(3)
 
     #Valor inicial
-    print('Quando foi comprado o ativo?')
+    print('Quando foi comprado o ativo? formato: YYYYMMDD')
     data_compra = input()
-    cotacao_compra = cotacao_usd(data_compra)
+    cotacao_compra = float(cotacao_usd(data_compra))
+
+    print('Quanto de BTC foi comprado? formato: X.XXXXXXXX 8 casas decimais')
+    qtd_compra = float(input())
 
     print(f'A cotação USD-BRL na data {data_compra} foi de R$ {cotacao_compra}')
 
     print('Em que moeda está o valor do ativo? (0) BRL ou (1)USD')
-    moeda_cotacao = input()
+    moeda_cotacao = int(input())
 
     if moeda_cotacao == 0:
         print('[BRL] Insira o valor do ativo: ')
-        btc_preco_brl = input()
+        btc_preco_brl = int(input())
         btc_preco_usd = btc_preco_brl/cotacao_compra
     elif moeda_cotacao == 1:
         print('[USD] Insira o valor do ativo: ')
-        btc_preco_usd = input()
+        btc_preco_usd = int(input())
         btc_preco_brl = btc_preco_usd*cotacao_compra
     else:
         print('Opção inválida, inicie o programa novamente.')
@@ -126,10 +129,18 @@ def main():
                 datetime_obj_fechamento  = btc_price_change["closeTime"]/1000
                 data_fechamento = datetime.fromtimestamp(int(datetime_obj_fechamento))
                 data_fechamento = data_fechamento.strftime("%d.%m.%y %H:%M:%S")
-                var_percent_lucro = var_percentual(btc_preco_brl,btc_float_price)
                 
-                if tickers[x] == 'BTCBRL':
-                    lucro_brl = var_percent_lucro*btc_float_price
+                var_percent_lucro = var_percentual(btc_preco_brl,btc_float_price)
+                var_percent_lucro_formatado = "{:.2%}".format(var_percent_lucro)
+
+                valor_lucro_btc = qtd_compra*var_percent_lucro
+                
+
+                if tickers[x] == 'BTCUSDT':
+                    lucro_usd = valor_lucro_btc*btc_float_price
+                elif tickers[x] == 'BTCBRL':
+                    lucro_brl = valor_lucro_btc*btc_float_price
+                
 
                 telegram_bot_sendtext(f'''
                 🤖 💸 {tickers[x]} 💰 🤑 \n PREÇO DO BITCOIN AGORA {data_fechamento}: ${btc_price_change["lastPrice"]} \n
@@ -140,8 +151,14 @@ def main():
                 
                 if (btc_float_price > btc_preco_usd and tickers[x] == 'BTCUSDT') or (btc_float_price > btc_preco_brl and tickers[x] == 'BTCBRL'):
                     telegram_bot_sendtext('🤑🤑🤑🤑 @Nimloth1 TU TA LUCRANTE 🤑🤑🤑🤑')
-                    if tickers[x] == 'BTCBRL':
-                        telegram_bot_sendtext(f'Lucro de: R$ {lucro_brl} || {var_percent_lucro}')
+                    
+                    if tickers[x] == 'BTCUSDT':
+                        telegram_bot_sendtext(f'Lucro de: $ {lucro_usd} || {var_percent_lucro_formatado}')
+                        continue
+                    elif tickers[x] == 'BTCBRL':
+                        telegram_bot_sendtext(f'Lucro de: R$ {"{:.3}".format(lucro_brl)} || {var_percent_lucro_formatado}')
+                    else:
+                        continue
                 count += 1
 
     time.sleep(hr_update*3600) #espera x hrs
