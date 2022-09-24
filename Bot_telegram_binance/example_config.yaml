@@ -1,0 +1,5 @@
+---
+    bot_token: 'SEU TOKEN DO TELEGRAM BOT'
+    bot_chat_id: 'SEU ID PESSOAL DO TELEGRAM' #ID do meu chat pessoal
+    api_key: 'SUA CHAVE API DA BINANCE'
+    api_secret: 'SUA API SECRET DA BINANCE'
