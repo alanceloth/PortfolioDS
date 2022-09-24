@@ -111,7 +111,8 @@ def main():
         print('Opção inválida, inicie o programa novamente.')
         exit()
 
-    
+    print('Qual frequencia você deseja receber um update sobre a cotação do ativo? (em horas)')
+    hr_update = int(input())
 
     while rep:
         while count < len(tickers):
@@ -130,14 +131,20 @@ def main():
                 if tickers[x] == 'BTCBRL':
                     lucro_brl = var_percent_lucro*btc_float_price
 
-                telegram_bot_sendtext(f'🤖 💸 {tickers[x]} 💰 🤑 \n PREÇO DO BITCOIN AGORA {data_fechamento}: ${btc_price_change["lastPrice"]} \n MUDANÇA DE PREÇO NAS ÚLTIMAS 24 HRS: ${btc_price_change["priceChange"]} \n MUDANÇA DE PREÇO NAS ÚLTIMAS 24 HRS: {btc_price_change["priceChangePercent"]}%')
+                telegram_bot_sendtext(f'''
+                🤖 💸 {tickers[x]} 💰 🤑 \n PREÇO DO BITCOIN AGORA {data_fechamento}: ${btc_price_change["lastPrice"]} \n
+                 MUDANÇA DE PREÇO NAS ÚLTIMAS 24 HRS: ${btc_price_change["priceChange"]} \n 
+                 MUDANÇA DE PREÇO NAS ÚLTIMAS 24 HRS: {btc_price_change["priceChangePercent"]}% \n
+                
+                ''')
                 
                 if (btc_float_price > btc_preco_usd and tickers[x] == 'BTCUSDT') or (btc_float_price > btc_preco_brl and tickers[x] == 'BTCBRL'):
                     telegram_bot_sendtext('🤑🤑🤑🤑 @Nimloth1 TU TA LUCRANTE 🤑🤑🤑🤑')
                     if tickers[x] == 'BTCBRL':
                         telegram_bot_sendtext(f'Lucro de: R$ {lucro_brl} || {var_percent_lucro}')
                 count += 1
-    time.sleep(7200) #espera 2 hrs
+
+    time.sleep(hr_update*3600) #espera x hrs
     #time.sleep(3600) #espera 1 hrs
 
 main()
