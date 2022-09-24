@@ -23,7 +23,7 @@
 
 **Goal:** The main goal of this project is to build a bot that can send orders to Binance based on preset strategies.
 
-**Description:** This robot currently has the ability to compare the price paid in Bitcoin, and compare it every two hours with the current price. After the comparison, the robot sends a message to the user informing the current Bitcoin price and if the user is making a profit.
+**Description:** This robot currently has the ability to compare the price paid in Bitcoin, and compare it every X hours (predefined by user) with the current price. After the comparison, the robot sends a message to the user informing the current Bitcoin price and if the user is making a profit.
 In the future, this price comparison module will be absorbed by the main objective of the project - the execution of orders based on predefined strategies.
 
 **Results:** So far, a module for comparing prices and sending results via Telegram has been built.
