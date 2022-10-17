@@ -1,6 +1,8 @@
 # Portfolio
  Hi my name is Alan Lanceloth, and welcome to my Github Portfolio.  
  This repo contains all of my Data Science projects.  
+
+ Here is my [LinkedIn](https://www.linkedin.com/in/alanlanceloth/)
  
  Below, you can check a brief description of my projects.
  
@@ -9,6 +11,7 @@
 <!--ts-->
    * [Project 1 - Previsao de Vendas - Sales Predict](#project-1-previsao-de-vendas---sales-predict)
    * [Project 2 - Binance bot](#project-2---binance-bot)
+   * [Project 3 - Olist Database](#project-3---olist-database)
 <!--te-->
 
 ### Project 1 - Previsao de Vendas - Sales Predict
@@ -33,8 +36,11 @@ The robot also has the ability to access the asset price via the Binance API and
 
 **Goal:** O objetivo deste projeto é demonstrar o uso de habilidades essenciais para um cientista de dados.
 
-**Description:** Utilizando os dados obtidos no Kaggle através do link https://www.kaggle.com/leandroal/an-lise-do-e-commerce-no-brasil-olist-dataset, foi criado um projeto com o intuito de demonstrar habilidades necessárias para um cientista de dados. São elas:
+**Description:** Utilizando os dados obtidos no Kaggle através do [link](https://www.kaggle.com/leandroal/an-lise-do-e-commerce-no-brasil-olist-dataset), foi criado um projeto com o intuito de demonstrar habilidades necessárias para um cientista de dados. São elas:
  - Criação de um banco de dados em um ambiente Cloud (Google Cloud Platform - GCP) a partir de arquivos CSV.
  - Extração, Transformação e Carga de dados através do Python utilizando APIs para conexão com o GCP.
+ - Análise exploratória dos dados
+ - Machine Learning
+ - Feature Engineering
 
 **Results:** Em desenvolvimento.
