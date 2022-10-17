@@ -2,7 +2,7 @@
  Hi my name is Alan Lanceloth, and welcome to my Github Portfolio.  
  This repo contains all of my Data Science projects.  
 
- Here is my [LinkedIn](https://www.linkedin.com/in/alanlanceloth/)
+ Here is my [LinkedIn](https://www.linkedin.com/in/alanlanceloth/).
  
  Below, you can check a brief description of my projects.
  
