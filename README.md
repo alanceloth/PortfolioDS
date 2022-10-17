@@ -28,3 +28,13 @@ In the future, this price comparison module will be absorbed by the main objecti
 
 **Results:** So far, a module for comparing prices and sending results via Telegram has been built.
 The robot also has the ability to access the asset price via the Binance API and the Dollar quote via the awesomeapi API.
+
+### Project 3 - Olist database
+
+**Goal:** O objetivo deste projeto é demonstrar o uso de habilidades essenciais para um cientista de dados.
+
+**Description:** Utilizando os dados obtidos no Kaggle através do link https://www.kaggle.com/leandroal/an-lise-do-e-commerce-no-brasil-olist-dataset, foi criado um projeto com o intuito de demonstrar habilidades necessárias para um cientista de dados. São elas:
+ - Criação de um banco de dados em um ambiente Cloud (Google Cloud Platform - GCP) a partir de arquivos CSV.
+ - Extração, Transformação e Carga de dados através do Python utilizando APIs para conexão com o GCP.
+
+**Results:** Em desenvolvimento.
