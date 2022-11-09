@@ -44,3 +44,8 @@ The robot also has the ability to access the asset price via the Binance API and
  - Feature Engineering
 
 **Results:** Em desenvolvimento.
+
+<<<<<<< HEAD
+
+=======
+>>>>>>> 424b88eccea22595f14a5f98a5669133241c244a
