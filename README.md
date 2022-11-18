@@ -12,6 +12,7 @@
    * [Project 1 - Previsao de Vendas - Sales Predict](#project-1-previsao-de-vendas---sales-predict)
    * [Project 2 - Binance bot](#project-2---binance-bot)
    * [Project 3 - Olist Database](#project-3---olist-database)
+   * [Project 4 - Portfolio Optimization](#project-4---portfolio-optimization)
 <!--te-->
 
 ### Project 1 - Previsao de Vendas - Sales Predict
@@ -22,7 +23,7 @@
  **Results:** The Decision Tree proved a R2 higher and have returned that the TV advertisement investment have more impact in the Sales revenue.  
  Also, we've checked that the company is spending more money with a form of advertising that is not so efficient (*'Jornal'* compared with *'Radio'*).  
  
-### Project 2 - Binance bot
+### Project 2 - Binance Bot
 
 **Goal:** The main goal of this project is to build a bot that can send orders to Binance based on preset strategies.
 
@@ -32,15 +33,23 @@ In the future, this price comparison module will be absorbed by the main objecti
 **Results:** So far, a module for comparing prices and sending results via Telegram has been built.
 The robot also has the ability to access the asset price via the Binance API and the Dollar quote via the awesomeapi API.
 
-### Project 3 - Olist database
+### Project 3 - Olist Database
 
-**Goal:** O objetivo deste projeto é demonstrar o uso de habilidades essenciais para um cientista de dados.
+**Goal:** The goal of this project is to demonstrate the use of essential skills for a data scientist.
 
-**Description:** Utilizando os dados obtidos no Kaggle através do [link](https://www.kaggle.com/leandroal/an-lise-do-e-commerce-no-brasil-olist-dataset), foi criado um projeto com o intuito de demonstrar habilidades necessárias para um cientista de dados. São elas:
- - Criação de um banco de dados em um ambiente Cloud (Google Cloud Platform - GCP) a partir de arquivos CSV.
- - Extração, Transformação e Carga de dados através do Python utilizando APIs para conexão com o GCP.
- - Análise exploratória dos dados
- - Machine Learning
- - Feature Engineering
+**Description:** Using data obtained from Kaggle through [link](https://www.kaggle.com/leandroal/an-lise-do-e-commerce-no-brasil-olist-dataset), it was created a project in order to demonstrate necessary skills for a data scientist. Are they:
+  - Creation of a database in a Cloud environment (Google Cloud Platform - GCP) from CSV files.
+  - Extraction, Transformation and Load of data through Python using APIs to connect with GCP.
+  - Exploratory data analysis
+  - Machine Learning
+  - Feature Engineering
 
-**Results:** Em desenvolvimento.
+**Results:** In development.
+
+### Project 4 - Portfolio Optimization
+
+**Goal:** The goal of this project is to demonstrate a Portfolio Optimization using Markowitz Efficient Frontier method.
+
+**Description:** In development.
+
+**Results:** In development.
