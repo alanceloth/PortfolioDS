@@ -59,9 +59,9 @@ Consult a professional investment advisor before making any investment decisions
 **Results:** The result obtained was an optimized portfolio, with a Sharpe index above 1 (which can be considered good), low volatility (below 20%) and expected annual return above 100%.
 
 Results from [PyPortfolioOpt](https://pyportfolioopt.readthedocs.io/en/latest/index.html) using the [Mean-variance optimization](https://pyportfolioopt.readthedocs.io/en/latest/UserGuide.html#mean-variance-optimization):
-Expected annual return: 112.5%
-Annual volatility: 18.2%
-Sharpe Ratio: 6.05
+  - Expected annual return: 112.5%
+  - Annual volatility: 18.2%
+  - Sharpe Ratio: 6.05
 
 An Out of Sample backtest using [Vectorbt](https://vectorbt.dev/api/portfolio/base/)  was also carried out including the same portfolio in another period to carry out the backtest. This test prevents model Overfit.
 
