@@ -50,6 +50,43 @@ The robot also has the ability to access the asset price via the Binance API and
 
 **Goal:** The goal of this project is to demonstrate a Portfolio Optimization using Markowitz Efficient Frontier method.
 
-**Description:** In development.
+**Description:** In this project, we're demonstrating the Portfolio Optimization using Markowitz Efficient Frontier method using the Valor Economico Wallet in the Brazillian Stock Market.
 
-**Results:** In development.
+Disclaimer: I am not a financial advisor. Do not take anything on this code as financial advice, ever.
+Do your own research.
+Consult a professional investment advisor before making any investment decisions!
+
+**Results:** The result obtained was an optimized portfolio, with a Sharpe index above 1 (which can be considered good), low volatility (below 20%) and expected annual return above 100%.
+
+Results from [PyPortfolioOpt](https://pyportfolioopt.readthedocs.io/en/latest/index.html) using the [Mean-variance optimization](https://pyportfolioopt.readthedocs.io/en/latest/UserGuide.html#mean-variance-optimization):
+Expected annual return: 112.5%
+Annual volatility: 18.2%
+Sharpe Ratio: 6.05
+
+An Out of Sample backtest using [Vectorbt](https://vectorbt.dev/api/portfolio/base/)  was also carried out including the same portfolio in another period to carry out the backtest. This test prevents model Overfit.
+
+Results from Vectorbt forcing the Overfit (using the dataset from the same period of the weights to backtest):
+Start                                    2021-11-22
+End                                      2022-05-20
+Period                                   124 days
+Total Return [%]                        43.452249
+Benchmark Return [%]                     3.645865
+Max Drawdown [%]                         5.852377
+Sharpe Ratio                             4.813585
+Max Drawdown Duration                    15 days
+
+Results from Vectorbt using the Out of Sample (using the dataset from another period of the weights to backtest):
+Start                                    2022-05-23
+End                                      2022-11-22
+Period                                   127 days
+Total Return [%]                         9.180265
+Benchmark Return [%]                     1.494079
+Max Drawdown [%]                        12.364891
+Sharpe Ratio                             1.075218
+Max Drawdown Duration                    49 days
+
+Here is the porfolio allocation assuming a 20.000 BRL total portfolio value:
+
+Stocks allocation:  {'AGRO3.SA': 54, 'CIEL3.SA': 990, 'CPLE6.SA': 340, 'EGIE3.SA': 6, 'ELET3.SA': 25, 'HYPE3.SA': 50, 'ITUB4.SA': 5, 'SBSP3.SA': 31, 'SLCE3.SA': 68, 'TAEE11.SA': 49, 'UNIP6.SA': 20, 'VALE3.SA': 6}
+
+Leftover: 0.037377230371930636 BRL
