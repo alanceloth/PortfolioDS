@@ -27,11 +27,11 @@ TELEGRAM_BOT_TOKEN = c['bot_token']
 TELEGRAM_CHAT_ID = c['bot_chat_id'] 
 
 #api binance
-api_key = c['api_key']
-api_secret = c['api_secret']
+api_key_binance = c['api_key']
+api_secret_binance = c['api_secret']
 
 
-client = Client(api_key, api_secret)
+client_binance = Client(api_key_binance, api_secret_binance)
 
 bot = telegram.Bot(token=TELEGRAM_BOT_TOKEN)
 
@@ -99,8 +99,19 @@ def main():
 
     print(f'A cotação USD-BRL na data {data_compra} foi de R$ {cotacao_compra}')
 
-    print('Em que moeda está o valor do ativo? (0) BRL ou (1)USD')
-    moeda_cotacao = int(input())
+    
+    while True:
+        try:
+            print('Em que moeda está o valor do ativo? (0) BRL ou (1)USD')
+            moeda_cotacao = int(input())
+            if moeda_cotacao != 0 or moeda_cotacao != 1:
+                print('Insira uma opção válida. (0) BRL ou (1)USD')
+                continue    
+        except ValueError:
+            print('Insira uma opção válida. (0) BRL ou (1)USD')
+            continue
+        else:
+            break
 
     if moeda_cotacao == 0:
         print('[BRL] Insira o valor do ativo: ')
@@ -121,7 +132,7 @@ def main():
         while count < len(tickers):
 
             for x in range(len(tickers)):   
-                btc_price_change = client.get_ticker(symbol=tickers[x])
+                btc_price_change = client_binance.get_ticker(symbol=tickers[x])
                 btc_float_price = float(btc_price_change["lastPrice"])
                 datetime_obj_open = btc_price_change["openTime"]/1000
                 data_abertura = datetime.fromtimestamp(int(datetime_obj_open))
@@ -149,7 +160,8 @@ def main():
                 
                 ''')
                 
-                if (btc_float_price > btc_preco_usd and tickers[x] == 'BTCUSDT') or (btc_float_price > btc_preco_brl and tickers[x] == 'BTCBRL'):
+                if (btc_float_price > btc_preco_usd and tickers[x] == 'BTCUSDT') or \
+                    (btc_float_price > btc_preco_brl and tickers[x] == 'BTCBRL'):
                     telegram_bot_sendtext('🤑🤑🤑🤑 @Nimloth1 TU TA LUCRANTE 🤑🤑🤑🤑')
                     
                     if tickers[x] == 'BTCUSDT':
