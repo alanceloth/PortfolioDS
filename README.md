@@ -13,6 +13,11 @@
    * [Project 2 - Binance bot](#project-2---binance-bot)
    * [Project 3 - Olist Database](#project-3---olist-database)
    * [Project 4 - Portfolio Optimization](#project-4---portfolio-optimization)
+   * [Project 5 - Investment Fund Analysis](#project-5---investment-fund-analysis)
+   * [Project 6 - Deep Learning & Crypto](#project-6---Deep-Learning-&-Crypto)
+   * [Project 7 - Real Estate Investment Trusts](#project-7---Real-Estate-Investment-Trusts)
+   * [Project 8 - Unsupervised Analysis for Decision Making](#project-8---Unsupervised-Analysis-for-Decision-Making)
+   * [Project 9 - Autocorrelation](#project-9---Autocorrelation)
 <!--te-->
 
 ### Project 1 - Previsao de Vendas - Sales Predict
@@ -127,9 +132,9 @@ Consult a professional investment advisor before making any investment decisions
 
 **Results:** IN PROGRESS
 
-### Project 7 - Fundos Imobiliários
+### Project 7 - Real Estate Investment Trusts
 
-**Goal:** Simular uma carteira de fundos imobiliários, seu crescimento através de aportes e rendimentos.
+**Goal:** Simulate a portfolio of real estate investment trusts, their growth through contributions and earnings.
 
 **Data source:** IN PROGRESS
 
@@ -141,7 +146,7 @@ Consult a professional investment advisor before making any investment decisions
 
 **Results:** IN PROGRESS
 
-### Project 8 - Análise não supervisionada para tomada de decisões
+### Project 8 - Unsupervised Analysis for Decision Making
 
 **Goal:** IN PROGRESS
 
@@ -155,7 +160,7 @@ Consult a professional investment advisor before making any investment decisions
 
 **Results:** IN PROGRESS
 
-### Project 9 - Autocorrelação
+### Project 9 - Autocorrelation
 
 **Goal:** IN PROGRESS
 
