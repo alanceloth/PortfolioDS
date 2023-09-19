@@ -52,7 +52,7 @@ The robot also has the ability to access the asset price via the Binance API and
 
 **Description:** In this project, we're demonstrating the Portfolio Optimization using Markowitz Efficient Frontier method using the Valor Economico Wallet in the Brazillian Stock Market.
 
-Disclaimer: I am not a financial advisor. Do not take anything on this code as financial advice, ever.
+**Disclaimer:**  I am not a financial advisor. Do not take anything on this code as financial advice, ever.
 Do your own research.
 Consult a professional investment advisor before making any investment decisions!
 
@@ -90,3 +90,81 @@ Here is the porfolio allocation assuming a 20.000 BRL total portfolio value:
 Stocks allocation:  {'AGRO3.SA': 54, 'CIEL3.SA': 990, 'CPLE6.SA': 340, 'EGIE3.SA': 6, 'ELET3.SA': 25, 'HYPE3.SA': 50, 'ITUB4.SA': 5, 'SBSP3.SA': 31, 'SLCE3.SA': 68, 'TAEE11.SA': 49, 'UNIP6.SA': 20, 'VALE3.SA': 6}
 
 Leftover: 0.037377230371930636 BRL
+
+### Project 5 - Investment Fund Analysis
+
+**Goal:** How to obtain and analyze investment fund data  
+Answer the following questions:
+1. Which fund in Brazil has the highest NAV (Net Asset Value)?
+2. How to obtain the variation of the share price for a specific fund?
+3. How to retrieve data for a specific fund knowing only its name?
+4. Which fund had the highest increase in share price?
+5. Which fund had the highest decrease in share price?
+6. TO-DO: Apply a strategy to choose funds based on fundamental analysis.
+
+**Data source:** CVM data portal
+
+**Description:** In this project, data from the CVM (Comissão de Valores Mobiliários, a regulatory agency linked to the Ministry of Finance of Brazil) was collected for investment funds with the aim of answering the above questions.
+
+**Disclaimer:** I am not a financial advisor. Do not take anything in this code as financial advice, ever.  
+Do your own research.  
+Consult a professional investment advisor before making any investment decisions!
+
+**Results:** It was possible to perform a detailed analysis on various investment funds, answer the main questions raised, and explore investment fund data.
+
+
+### Project 6 - Deep Learning & Crypto
+
+**Goal:** Predict Bitcoin prices using a Deep Learning model.
+
+**Data source:** IN PROGRESS
+
+**Description:** IN PROGRESS
+
+**Disclaimer:** I am not a financial advisor. Do not take anything in this code as financial advice, ever.  
+Do your own research.  
+Consult a professional investment advisor before making any investment decisions!
+
+**Results:** IN PROGRESS
+
+### Project 7 - Fundos Imobiliários
+
+**Goal:** Simular uma carteira de fundos imobiliários, seu crescimento através de aportes e rendimentos.
+
+**Data source:** IN PROGRESS
+
+**Description:** IN PROGRESS
+
+**Disclaimer:** I am not a financial advisor. Do not take anything in this code as financial advice, ever.  
+Do your own research.  
+Consult a professional investment advisor before making any investment decisions!
+
+**Results:** IN PROGRESS
+
+### Project 8 - Análise não supervisionada para tomada de decisões
+
+**Goal:** IN PROGRESS
+
+**Data source:** IN PROGRESS
+
+**Description:** IN PROGRESS
+
+**Disclaimer:** I am not a financial advisor. Do not take anything in this code as financial advice, ever.  
+Do your own research.  
+Consult a professional investment advisor before making any investment decisions!
+
+**Results:** IN PROGRESS
+
+### Project 9 - Autocorrelação
+
+**Goal:** IN PROGRESS
+
+**Data source:** IN PROGRESS
+
+**Description:** IN PROGRESS
+
+**Disclaimer:** I am not a financial advisor. Do not take anything in this code as financial advice, ever.  
+Do your own research.  
+Consult a professional investment advisor before making any investment decisions!
+
+**Results:** IN PROGRESS
