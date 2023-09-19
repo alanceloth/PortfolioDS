@@ -18,6 +18,7 @@
    * [Project 7 - Real Estate Investment Trusts](#project-7---Real-Estate-Investment-Trusts)
    * [Project 8 - Unsupervised Analysis for Decision Making](#project-8---Unsupervised-Analysis-for-Decision-Making)
    * [Project 9 - Autocorrelation](#project-9---Autocorrelation)
+   * [Project 10 - Plotting Price and Volume of a Stock](#project-10---Plotting-Price-and-Volume-of-a-Stock)
 <!--te-->
 
 ### Project 1 - Previsao de Vendas - Sales Predict
@@ -173,3 +174,18 @@ Do your own research.
 Consult a professional investment advisor before making any investment decisions!
 
 **Results:** IN PROGRESS
+
+### Project 10 - Plotting Price and Volume of a Stock
+
+**Goal:** Plot stock prices and volume in the same chart.
+
+**Data source:** Yfinance
+
+**Description:** Learn how to create a chart that displays multiple pieces of information simultaneously.
+
+**Disclaimer:** I am not a financial advisor. Do not take anything in this code as financial advice, ever.  
+Do your own research.  
+Consult a professional investment advisor before making any investment decisions!
+
+**Results:** In addition to plotting both pieces of information, a candlestick plot, commonly used by platforms that provide this type of data, was included.
+
