@@ -189,3 +189,16 @@ Consult a professional investment advisor before making any investment decisions
 
 **Results:** In addition to plotting both pieces of information, a candlestick plot, commonly used by platforms that provide this type of data, was included.
 
+### Project 11 - Analyzing Gas Price Trends with SARIMA: Estimating Past and Future Prices (simulated internship program JPMorgan Chase & Co.)
+
+**Goal:** Analyze the data to estimate the purchase price of gas at any date in the past and extrapolate it for one year into the future.
+
+**Data source:** CSV provided by JPMorgan Chase & Co.
+
+**Description:** Learn how to create a chart that displays multiple pieces of information simultaneously.
+
+**Disclaimer:** I am not a financial advisor. Do not take anything in this code as financial advice, ever.  
+Do your own research.  
+Consult a professional investment advisor before making any investment decisions!
+
+**Results:** In addition to plotting both pieces of information, a candlestick plot, commonly used by platforms that provide this type of data, was included.
