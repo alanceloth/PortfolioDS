@@ -19,7 +19,7 @@
    * [Project 8 - Unsupervised Analysis for Decision Making](#project-8---Unsupervised-Analysis-for-Decision-Making)
    * [Project 9 - Autocorrelation](#project-9---Autocorrelation)
    * [Project 10 - Plotting Price and Volume of a Stock](#project-10---Plotting-Price-and-Volume-of-a-Stock)
-   * [Project 11 - Analyzing Gas Price Trends with SARIMA: Estimating Past and Future Prices](#project-11---Analyzing-Gas-Price-Trends-with-SARIMA:-Estimating-Past-and-Future-Prices)
+   * [Project 11 - Analyzing Gas Price Trends with SARIMA: Estimating Past and Future Prices](#project-11---analyzing-gas-price-trends-with-sarima-estimating-past-and-future-prices)
    * [Project 12 - ETF Analysis](#project-12---ETF-Analysis)
 <!--te-->
 
