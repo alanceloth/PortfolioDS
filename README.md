@@ -193,6 +193,8 @@ Consult a professional investment advisor before making any investment decisions
 
 ### Project 11 - Analyzing Gas Price Trends with SARIMA: Estimating Past and Future Prices
 
+[LinkedIn Article](https://www.linkedin.com/pulse/analyzing-gas-price-trends-sarima-estimating-past-rodrigues-silva-/?trackingId=M5JXjW0rGUTguPCmXpW8vg%3D%3D)
+
 **Goal:** Analyze the data to estimate the purchase price of gas at any date in the past and extrapolate it for one year into the future. 
 
 **Data source:** CSV provided by JPMorgan Chase & Co.
@@ -206,6 +208,8 @@ Consult a professional investment advisor before making any investment decisions
 **Results:** In addition to plotting both pieces of information, a candlestick plot, commonly used by platforms that provide this type of data, was included.
 
 ### Project 12 - ETF Analysis
+
+[LinkedIn Article](https://www.linkedin.com/pulse/analise-de-etfs-alan-lanceloth-rodrigues-silva-/?trackingId=Jk6YWFjDYo8e1TFK4LGUmg%3D%3D)
 
 **Goal:** Create two or three hypothetical portfolios with varying numbers of ETFs and different strategies, and compare their performance. 
 
