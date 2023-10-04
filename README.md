@@ -19,6 +19,8 @@
    * [Project 8 - Unsupervised Analysis for Decision Making](#project-8---Unsupervised-Analysis-for-Decision-Making)
    * [Project 9 - Autocorrelation](#project-9---Autocorrelation)
    * [Project 10 - Plotting Price and Volume of a Stock](#project-10---Plotting-Price-and-Volume-of-a-Stock)
+   * [Project 11 - Analyzing Gas Price Trends with SARIMA: Estimating Past and Future Prices](#project-11---Analyzing-Gas-Price-Trends-with-SARIMA:-Estimating-Past-and-Future-Prices)
+   * [Project 12 - ETF Analysis](#project-12---ETF-Analysis)
 <!--te-->
 
 ### Project 1 - Previsao de Vendas - Sales Predict
@@ -189,16 +191,28 @@ Consult a professional investment advisor before making any investment decisions
 
 **Results:** In addition to plotting both pieces of information, a candlestick plot, commonly used by platforms that provide this type of data, was included.
 
-### Project 11 - Analyzing Gas Price Trends with SARIMA: Estimating Past and Future Prices (simulated internship program JPMorgan Chase & Co.)
+### Project 11 - Analyzing Gas Price Trends with SARIMA: Estimating Past and Future Prices
 
-**Goal:** Analyze the data to estimate the purchase price of gas at any date in the past and extrapolate it for one year into the future.
+**Goal:** Analyze the data to estimate the purchase price of gas at any date in the past and extrapolate it for one year into the future. 
 
 **Data source:** CSV provided by JPMorgan Chase & Co.
 
-**Description:** Learn how to create a chart that displays multiple pieces of information simultaneously.
+**Description:** Learn how to create a chart that displays multiple pieces of information simultaneously. (simulated internship program JPMorgan Chase & Co.)
 
 **Disclaimer:** I am not a financial advisor. Do not take anything in this code as financial advice, ever.  
 Do your own research.  
 Consult a professional investment advisor before making any investment decisions!
 
 **Results:** In addition to plotting both pieces of information, a candlestick plot, commonly used by platforms that provide this type of data, was included.
+
+### Project 12 - ETF Analysis
+
+**Goal:** Create two or three hypothetical portfolios with varying numbers of ETFs and different strategies, and compare their performance. 
+
+**Data source:** Yfinance Stocks and ETF data.
+
+**Disclaimer:** I am not a financial advisor. Do not take anything in this code as financial advice, ever.  
+Do your own research.  
+Consult a professional investment advisor before making any investment decisions!
+
+**Results:** In this project, various technical skills related to data handling, asset selection, data acquisition, and financial market data analysis were exercised. For future improvements, we can define our own strategies for stock selection or explore other asset classes (such as real estate funds). One of the most important aspects I would like to highlight in this project were the moments when it was necessary to pause and ask oneself 'Why?' or 'How am I going to define a strategy to choose this asset instead of the other one?
