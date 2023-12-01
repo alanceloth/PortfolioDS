@@ -1,0 +1,5 @@
+Client_ID: 'app_client_id' #obter no linkedin for developers
+Client_Secret: 'app_client_secret' #obter no linkedin for developers
+
+Email: 'your_email'
+Senha: 'linkedIn_password'
