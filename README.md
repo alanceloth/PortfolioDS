@@ -25,7 +25,7 @@
    * [Project 14 - Weekly Report](#project-14---Weekly-Report)
 <!--te-->
 
-### Project 1 - Previsao de Vendas - Sales Predict
+### [Project 1 - Previsao de Vendas - Sales Predict](https://github.com/alanceloth/PortfolioDS/tree/main/Previsao%20de%20Vendas)
  **Goal:** The goal of this project is to predict the Sales of a company by their advertising investment using Machine Learning.  
 
  **Description:** In this project I've made a comparrison with Linear Regression and Decision Tree models.  
@@ -33,7 +33,7 @@
  **Results:** The Decision Tree proved a R2 higher and have returned that the TV advertisement investment have more impact in the Sales revenue.  
  Also, we've checked that the company is spending more money with a form of advertising that is not so efficient (*'Jornal'* compared with *'Radio'*).  
  
-### Project 2 - Binance Bot
+### [Project 2 - Binance bot](https://github.com/alanceloth/PortfolioDS/tree/main/Bot%20Telegram%20Binance)
 
 **Goal:** The main goal of this project is to build a bot that can send orders to Binance based on preset strategies.
 
@@ -43,7 +43,7 @@ In the future, this price comparison module will be absorbed by the main objecti
 **Results:** So far, a module for comparing prices and sending results via Telegram has been built.
 The robot also has the ability to access the asset price via the Binance API and the Dollar quote via the awesomeapi API.
 
-### Project 3 - Olist Database
+### [Project 3 - Olist Database](https://github.com/alanceloth/PortfolioDS/tree/main/Projeto%20-%20dados%20Olist)
 
 **Goal:** The goal of this project is to demonstrate the use of essential skills for a data scientist.
 
@@ -56,7 +56,7 @@ The robot also has the ability to access the asset price via the Binance API and
 
 **Results:** In development.
 
-### Project 4 - Portfolio Optimization
+### [Project 4 - Portfolio Optimization](https://github.com/alanceloth/PortfolioDS/tree/main/Portfolio%20Optimization%20-%20Markowitz)
 
 **Goal:** The goal of this project is to demonstrate a Portfolio Optimization using Markowitz Efficient Frontier method.
 
@@ -101,7 +101,7 @@ Stocks allocation:  {'AGRO3.SA': 54, 'CIEL3.SA': 990, 'CPLE6.SA': 340, 'EGIE3.SA
 
 Leftover: 0.037377230371930636 BRL
 
-### Project 5 - Investment Fund Analysis
+### [Project 5 - Investment Fund Analysis](https://github.com/alanceloth/PortfolioDS/tree/main/Analise_de_Fundos_de_Investimentos)
 
 **Goal:** How to obtain and analyze investment fund data  
 Answer the following questions:
@@ -123,7 +123,7 @@ Consult a professional investment advisor before making any investment decisions
 **Results:** It was possible to perform a detailed analysis on various investment funds, answer the main questions raised, and explore investment fund data.
 
 
-### Project 6 - Deep Learning & Crypto
+### [Project 6 - Deep Learning & Crypto](https://github.com/alanceloth/PortfolioDS/tree/main/Deep%20Learning%20e%20Cryptomoeda)
 
 **Goal:** Predict Bitcoin prices using a Deep Learning model.
 
@@ -137,7 +137,7 @@ Consult a professional investment advisor before making any investment decisions
 
 **Results:** IN PROGRESS
 
-### Project 7 - Real Estate Investment Trusts
+### [Project 7 - Real Estate Investment Trusts](https://github.com/alanceloth/PortfolioDS/tree/main/fundos_imobiliarios)
 
 **Goal:** Simulate a portfolio of real estate investment trusts, their growth through contributions and earnings.
 
@@ -151,7 +151,7 @@ Consult a professional investment advisor before making any investment decisions
 
 **Results:** IN PROGRESS
 
-### Project 8 - Unsupervised Analysis for Decision Making
+### [Project 8 - Unsupervised Analysis for Decision Making](https://github.com/alanceloth/PortfolioDS/tree/main/An%C3%A1lise%20n%C3%A3o%20supervisionada%20para%20tomada%20de%20decis%C3%B5es)
 
 **Goal:** IN PROGRESS
 
@@ -165,7 +165,7 @@ Consult a professional investment advisor before making any investment decisions
 
 **Results:** IN PROGRESS
 
-### Project 9 - Autocorrelation
+### [Project 9 - Autocorrelation](https://github.com/alanceloth/PortfolioDS/tree/main/Autocorrelacao)
 
 **Goal:** IN PROGRESS
 
@@ -179,7 +179,7 @@ Consult a professional investment advisor before making any investment decisions
 
 **Results:** IN PROGRESS
 
-### Project 10 - Plotting Price and Volume of a Stock
+### [Project 10 - Plotting Price and Volume of a Stock](https://github.com/alanceloth/PortfolioDS/tree/main/Plotando%20cota%C3%A7%C3%A3o%20de%20um%20ativo%20com%20volume)
 
 **Goal:** Plot stock prices and volume in the same chart.
 
@@ -193,7 +193,7 @@ Consult a professional investment advisor before making any investment decisions
 
 **Results:** In addition to plotting both pieces of information, a candlestick plot, commonly used by platforms that provide this type of data, was included.
 
-### Project 11 - Analyzing Gas Price Trends with SARIMA: Estimating Past and Future Prices
+### [Project 11 - Analyzing Gas Price Trends with SARIMA: Estimating Past and Future Prices](https://github.com/alanceloth/PortfolioDS/tree/main/JP%20MOrgan%20Chase%20%26%20Co%20Intern/Task%201%20-%20Estimate%20gas%20prices)
 
 [LinkedIn Article](https://www.linkedin.com/pulse/analyzing-gas-price-trends-sarima-estimating-past-rodrigues-silva-/?trackingId=M5JXjW0rGUTguPCmXpW8vg%3D%3D)
 
@@ -209,7 +209,7 @@ Consult a professional investment advisor before making any investment decisions
 
 **Results:** In addition to plotting both pieces of information, a candlestick plot, commonly used by platforms that provide this type of data, was included.
 
-### Project 12 - ETF Analysis
+### [Project 12 - ETF Analysis](https://github.com/alanceloth/PortfolioDS/tree/main/Analisando%20ETFs)
 
 [LinkedIn Article](https://www.linkedin.com/pulse/analise-de-etfs-alan-lanceloth-rodrigues-silva-/?trackingId=Jk6YWFjDYo8e1TFK4LGUmg%3D%3D)
 
@@ -224,7 +224,7 @@ Consult a professional investment advisor before making any investment decisions
 **Results:** In this project, various technical skills related to data handling, asset selection, data acquisition, and financial market data analysis were exercised. For future improvements, we can define our own strategies for stock selection or explore other asset classes (such as real estate funds). One of the most important aspects I would like to highlight in this project were the moments when it was necessary to pause and ask oneself 'Why?' or 'How am I going to define a strategy to choose this asset instead of the other one?
 
 
-### Project 13 - LinkedIn Bot
+### [Project 13 - LinkedIn Bot](https://github.com/alanceloth/PortfolioDS/tree/main/Bot%20LinkedIn)
 
 **Goal:** Explore the LinkedIn API to create automated posts on the platform. 
 
@@ -238,7 +238,7 @@ Consult a professional investment advisor before making any investment decisions
 Next Steps:
   - [ ] Add scheduling feature
 
-### Project 14 - Weekly Report
+### [Project 14 - Weekly Report](https://github.com/alanceloth/PortfolioDS/tree/main/Weekly%20Report)
 
 **Goal:** Create a market overview report showing index results, and stock results weekly.
 
@@ -249,3 +249,4 @@ Do your own research.
 Consult a professional investment advisor before making any investment decisions!
 
 **Results:** As shown, in this project we managed to check the market index and stocks weekly with various types of charts.
+
