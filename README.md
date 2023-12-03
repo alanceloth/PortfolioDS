@@ -21,6 +21,8 @@
    * [Project 10 - Plotting Price and Volume of a Stock](#project-10---Plotting-Price-and-Volume-of-a-Stock)
    * [Project 11 - Analyzing Gas Price Trends with SARIMA: Estimating Past and Future Prices](#project-11---analyzing-gas-price-trends-with-sarima-estimating-past-and-future-prices)
    * [Project 12 - ETF Analysis](#project-12---ETF-Analysis)
+   * [Project 13 - LinkedIn Bot](#project-13---LinkedIn-Bot)
+   * [Project 14 - Weekly Report](#project-14---Weekly-Report)
 <!--te-->
 
 ### Project 1 - Previsao de Vendas - Sales Predict
@@ -220,3 +222,30 @@ Do your own research.
 Consult a professional investment advisor before making any investment decisions!
 
 **Results:** In this project, various technical skills related to data handling, asset selection, data acquisition, and financial market data analysis were exercised. For future improvements, we can define our own strategies for stock selection or explore other asset classes (such as real estate funds). One of the most important aspects I would like to highlight in this project were the moments when it was necessary to pause and ask oneself 'Why?' or 'How am I going to define a strategy to choose this asset instead of the other one?
+
+
+### Project 13 - LinkedIn Bot
+
+**Goal:** Explore the LinkedIn API to create automated posts on the platform. 
+
+**Data source:** Various.
+
+**Disclaimer:** I am not a financial advisor. Do not take anything in this code as financial advice, ever.  
+Do your own research.  
+Consult a professional investment advisor before making any investment decisions!
+
+**Results:** Currently, the bot can make posts using the LinkedIn API on the user's account. You can add media or articles, or just text to your publication. 
+Next Steps:
+  - [ ] Add scheduling feature
+
+### Project 14 - Weekly Report
+
+**Goal:** Create a market overview report showing index results, and stock results weekly.
+
+**Data source:** Yfinance Stocks and MetaTrader5
+
+**Disclaimer:** I am not a financial advisor. Do not take anything in this code as financial advice, ever.  
+Do your own research.  
+Consult a professional investment advisor before making any investment decisions!
+
+**Results:** As shown, in this project we managed to check the market index and stocks weekly with various types of charts.
