@@ -1,0 +1,11 @@
+binance:
+  api_key: CKxSvpZzA9D77777777777777777777777777wngUfk8dp296R # API KEY BINANCE
+  api_secret: vTwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwN86XYEL #API SECRET BINANCE
+
+
+coinmarketcap:
+  api_key: diogvuhg48o73hr12987h300dhfh # API KEY COINMARKETCAP
+  
+telegram:
+  chat_id: -9323232320
+  token: 6046777777:AAxxxxxxxxxxxxxxxxxxx17w
